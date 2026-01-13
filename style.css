@@ -1,0 +1,390 @@
+/* p{
+    font-size: 25px;
+    font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+} */
+
+/* p{
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration: none;
+} */
+
+
+/* p{
+    font-size: 25px;
+    font-size: 2rem;
+} */
+
+/* .container{
+    font-size: 20px;
+}
+
+.conatiner p{
+    font-size: 2em;
+} */
+
+
+/* rem - relative to root (HTML) - ; default - 16px */
+/* em - relative to parent element */
+
+
+
+/* Micro Project */
+
+/* body{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+.title{
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+.subtitle{
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+nav a{
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 600;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    background-color: rgb(193, 60, 60);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding: 20px 10px;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+p{
+    margin: 20px 0px;
+}
+
+nav{
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: wheat;
+    margin-right: 20px;
+    font-size: 20px;
+} */
+
+
+/* Display Types */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+span{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+} */
+
+
+/* .x{
+    background-color: yellow;
+    padding: 20px;
+    display: inline-block;
+} */
+
+
+/* body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+
+.box{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.block{
+    display: block;
+    background-color: teal;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+} */
+
+/* .border-x{
+    border-width: 5px;
+    border-color: red
+    border-style: solid;
+
+    border-radius: 5px;
+} */
+
+
+/* .border-x{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    border: 2px solid rgb(97, 97, 157);
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgb(109, 109, 191);
+    text-align: center;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+p{
+    text-shadow: 0px 0px 5px #00f;
+} */
+
+/* .box{
+    position: static;
+} */
+
+
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 4000px;
+    padding: 20px;
+}
+
+h2{
+    margin-top: 60px;
+}
+.container{
+    border: 2px dashed #999;
+    padding: 20px;
+    height: 200px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+.box{
+    width: 120px;
+    height: 60px;
+    background-color: #4f46e5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.static{
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+.relative{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    background-color: teal;
+}
+
+.absolute{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    background-color: orange;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.fixed{
+    position: fixed;
+    top: 20px;
+    right: 50%;
+    background-color: crimson;
+} */
+
+/* z-index */
+/* body{
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.red{
+    background-color: red;
+    top: 20px;
+    left: 20px;
+    z-index: 4;
+}
+
+.green{
+    background-color: green;
+    top: 40px;
+    left: 40px;
+    z-index: 5;
+}
+
+.blue{
+    background-color: blue;
+    top: 60px;
+    left: 60px;
+    z-index: 6;
+} */
+
+/* flex */
+/* .box{
+    width: 200px;
+    height: 200px;
+}
+
+.box-1{
+    background-color: purple;
+}
+
+.box-2{
+    background-color: orange;
+}
+
+.box-3{
+    background-color: brown;
+}
+
+.box-4{
+    background-color: pink;
+}
+
+.box-5{
+    background-color: gray;
+}
+
+.container{
+    background-color: lime;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    gap: 10px; 
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+
+/* CSS Grid */
+
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: 200px 300px 5fr 2fr; */
+    grid-template-rows: 100px 200px;
+    gap: 20px;
+}
+
+
+.box{
+    /* width: 200px;
+    height: 200px; */
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.box-1{
+    background-color: coral;
+}
+
+.box-2{
+    background-color: teal;
+}
+
+.box-3{
+    background-color: olive;
+}
+
+.box-4{
+    background-color: navy;
+}
+
+.box-5{
+    background-color: maroon;
+}
+
+.box-6{
+    background-color: purple;
+}

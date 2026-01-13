@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+
+}
+
+.box{
+    background-color: brown;
+    color: beige;
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transition */
+    /* transition : property duration timing-fuction */
+
+    transition: all 1s ease;
+}
+
+.box:hover{
+    background-color: black;
+    color: red;
+    /* transform: scale(1.5); */
+    transform: rotate(45deg) translateY(300px) scale(1.5);
+}
