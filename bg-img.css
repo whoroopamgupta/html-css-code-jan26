@@ -1,0 +1,13 @@
+.box{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    /* background-image: url("https://miro.medium.com/1*GB9gafmsdV-6YdRB03BMpg.png"); */
+    /* background-image: url("./photos/image.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 600px 400px; */
+    /* background-size: contain; */
+    /* background-image: cover; */
+    /* background-position: center; */
+    background: url("./photos/image.png") no-repeat center/contain;
+}
