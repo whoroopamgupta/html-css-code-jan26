@@ -1,91 +1,110 @@
-/* li:first-child{
-    font-size: 20px;
-    background-color: lightblue;
+/* .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
 }
-
-li:last-child{
-    font-size: 20px;
-    background-color: lightgreen;
-}
-
-li:nth-child(2){
-    font-size: 20px;
-    background-color: lightpink;
-} */
-
-/* li:nth-child(even){
-    background-color: lightgray;
-} */
-
-/* 
-.element::before{
-    content: "Hello World";
-}
-
-.element::after{
-    content: "Hello Universe";
-} */
-
-/* .note::before{
-    content: "Note : ";
-    font-weight: bold;
-}
-
-.note::after{
-    content: " !!!";
-    font-weight: bold;
-}
-
-.title{
-    position: relative;
-}
-
-.title::before{
-    content: "";
-    width: 5px;
-    height: 100%;
-    background: steelblue;
-    position: absolute;
-    top: 0;
-    left: -5px;
-} */
-
-.link{
-    position: relative;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-.link::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 2px;
-    background: black;
-    transition: width 0.3s;
-}
-
-.link:hover::after{
-    width: 100%;
-}
-
 
 .card{
-    position: relative;
-    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 200px;
 }
 
-.card::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    opacity: 0.3;
-    transition: all 0.3s;
+
+@media (min-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card2{
+        background-color: #d0d0d0;
+        width: 300px;
+    }
 }
 
-.card:hover::before{
-    opacity: 1;
+@media (min-width: 1024px){
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card3{
+        background-color: #b0b0b0;
+        width: 300px;
+    }
+} */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+}
+
+.card{
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (min-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px){
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+
+/* CSS Varaible */
+
+:root{
+    --primary-color: #4a90e2;
+    --back-color : #333;
+    --text-color: #fff;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+p{
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+button{
+    background-color: var(--back-color);
+    color: var(--text-color);
 }
