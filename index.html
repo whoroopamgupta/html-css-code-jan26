@@ -7,33 +7,97 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- Responsive Design -->
-     <!-- <div class="cards">
-        <div class="card">One</div>
-        <div class="card card2">Two</div>
-        <div class="card card3">Three</div>
-     </div> -->
+    
+    <!-- navbar -->
+    <header class="nav">
+        <div class="nav-container">
+            <div class="logo">John<span>.</span></div>
 
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+     <section class="hero">
+        <div class="hero-container">
+            <h1>
+                Building clean, responsive <br/>
+                web experieneces with <br/>
+                <span>HTML & CSS</span>
+            </h1>
 
-     <!-- <div class="header">
-        <h1>My Website</h1>
-     </div>
+            <p class="hero-subtext">
+                I'm a frontend developer focused on crafting accessible, well-structured interfaces using modern web standards.
+            </p>
 
-     <section class="cards">
-        <div class="card">One</div>
-        <div class="card">Two</div>
-        <div class="card">Three</div>
+            <div class="hero-actions">
+                <a href="#work" class="btn primary">View Work</a>
+                <a href="#contact" class="btn secondary">Contact</a>
+            </div>
+
+        </div>
      </section>
 
-     <footer class="footer">
-        <p>&copy; 2026</p>
-     </footer> -->
+     <!-- About -->
 
-     <h1>CSS Variables</h1>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquam perspiciatis pariatur ut dolorem! Illum repellat commodi nulla fuga consectetur!</p>
+     <section id="about" class="section">
+        <div class="container two-column">
+            <h2 class="section-title">About</h2>
 
-     <button>Click Me</button>
+            <div class="content">
+                <p>I specialize in building layouts that are responsive, maintainable, and visually refined. I strongly believe that mastering HTML and CSS is the foundation of great frontend work.</p>
+
+                <p>This portfolio is intentionally built without JavaScript frameworks to demonstarte core web fundamentals.</p>
+            </div>
+        </div>
+     </section>
+
+
+     <section id="skills" class="section muted">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill">HTML5 & Sematic Markup</div>
+                <div class="skill">CSS3 & Flexbox/Grid</div>
+                <div class="skill">Responsive Design</div>
+                <div class="skill">Cross-Browser Compatibility</div>
+                <div class="skill">Accessibility Best Practices</div>
+                <div class="skill">Version Control (Git)</div>
+            </div>
+        </div>
+     </section>
+
+
+     <!-- Work -->
+
+     <section id="work" class="section">
+        <div class="container">
+            <h3 class="section-title">Selected Works</h3>
+
+            <div class="work-grid">
+                <article class="work-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Minimal personal portfolio build with HTML & CSS.</p>
+                </article>
+                <article class="work-card">
+                    <h3>Landing Page</h3>
+                    <p>Clean, responsive landing page layout.</p>
+                </article>
+                <article class="work-card">
+                    <h3>UI Components</h3>
+                    <p>Reusable UI patterns and layouts.</p>
+                </article>
+            </div>
+
+        </div>
+     </section>
+
 
 </body>
 </html>

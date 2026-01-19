@@ -1,0 +1,110 @@
+/* .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.card{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 200px;
+}
+
+
+@media (min-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card2{
+        background-color: #d0d0d0;
+        width: 300px;
+    }
+}
+
+@media (min-width: 1024px){
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card3{
+        background-color: #b0b0b0;
+        width: 300px;
+    }
+} */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+}
+
+.card{
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (min-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px){
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+
+/* CSS Varaible */
+
+:root{
+    --primary-color: #4a90e2;
+    --back-color : #333;
+    --text-color: #fff;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+p{
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+button{
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
