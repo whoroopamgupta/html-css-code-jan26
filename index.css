@@ -176,3 +176,36 @@ body{
 .work-card h3{
     margin-bottom: 8px;
 }
+
+/* Contact */
+
+.contact-form{
+    display: grid;
+    gap: 16px;
+}
+
+input,textarea{
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    font-family: inherit;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border-color: var(--primary);
+}
+
+.footer{
+    padding: 40px 24px;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+}
+
+
+@media (max-width: 768px){
+    .two-column{
+        grid-template-columns: 1fr;
+    }
+}
